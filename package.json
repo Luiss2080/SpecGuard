@@ -1,0 +1,19 @@
+{
+  "name": "@luiss2080/spec-lint",
+  "version": "1.0.0",
+  "description": "Linter de requisitos EARS (español/inglés) para specs en Markdown: IDs duplicados, requisitos sin patrón EARS, compuestos y términos vagos.",
+  "type": "module",
+  "main": "index.js",
+  "exports": "./index.js",
+  "bin": { "speclint": "speclint.js" },
+  "files": ["index.js", "speclint.js", "README.md", "LICENSE"],
+  "scripts": { "test": "node --test" },
+  "keywords": ["ears","requirements","spec-driven-development","sdd","lint","markdown","cli","especificaciones"],
+  "author": "Luis Rocha <https://github.com/Luiss2080>",
+  "license": "MIT",
+  "engines": { "node": ">=18" },
+  "repository": { "type": "git", "url": "git+https://github.com/Luiss2080/spec-lint.git" },
+  "bugs": "https://github.com/Luiss2080/spec-lint/issues",
+  "homepage": "https://github.com/Luiss2080/spec-lint#readme",
+  "publishConfig": { "registry": "https://npm.pkg.github.com", "access": "public" }
+}
