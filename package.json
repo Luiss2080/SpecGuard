@@ -1,6 +1,6 @@
 {
   "name": "@luiss2080/specguard",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Linter de requisitos EARS (español/inglés) para specs en Markdown: IDs duplicados, requisitos sin patrón EARS, compuestos y términos vagos.",
   "type": "module",
   "main": "index.js",
