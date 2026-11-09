@@ -1,4 +1,4 @@
-# @luiss2080/spec-lint
+# SpecGuard
 
 Linter de requisitos **EARS** (Easy Approach to Requirements Syntax) para specs en Markdown, en **español e inglés**. Nació del flujo Spec-Driven Development (SDD) con decenas de specs por proyecto: detecta los errores que se cuelan al escribirlas a mano.
 
@@ -25,7 +25,7 @@ npx speclint specs --strict      # las advertencias también fallan
 Formato de requisito reconocido: `REQ-001: El sistema deberá…`, `- **POS-12**: Cuando…`.
 
 ```js
-import { lintSpec } from '@luiss2080/spec-lint';
+import { lintSpec } from '@luiss2080/specguard';
 const { problemas, errores } = lintSpec(markdown, { archivo: 'spec.md' });
 ```
 
@@ -40,7 +40,7 @@ Se publica en GitHub Packages. Agrega a tu `.npmrc`:
 ```
 
 ```bash
-npm install @luiss2080/spec-lint
+npm install @luiss2080/specguard
 ```
 
 > GitHub Packages pide autenticarse (token con `read:packages`) incluso para paquetes públicos.
